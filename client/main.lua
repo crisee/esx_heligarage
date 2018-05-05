@@ -158,14 +158,14 @@ Citizen.CreateThread(function()
 			ESX.ShowNotification('~o~Helicopter~w~ is on their way..')
 			Citizen.Wait(6000)
 
-             ESX.Game.SpawnVehicle('supervolito', {
+             ESX.Game.SpawnVehicle('polmav', {
                 x = 313.198,
                 y = -1465.156,
                 z = 45.609
                 }, 140.60, function(vehicle)
                 ambulanceChopper = vehicle
                  SetVehicleModKit(vehicle, 0)
-                   SetVehicleLivery(vehicle, 0)
+                   SetVehicleLivery(vehicle, 1)
               end)
 
 			CurrentAction = nil
